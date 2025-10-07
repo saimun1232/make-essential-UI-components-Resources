@@ -191,3 +191,63 @@ width: 100%;
 .footer .div .subtitle{
     color: black;
 }
+nav{
+  background-color: #c23616;
+  height: 80px;
+  width: 100vw;
+  user-select: none;
+  position: sticky;
+  top: 0px;
+}
+.logo{
+  color:white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  line-height: 80px;
+  min-width: 100px;
+  text-align: center;
+  border-top-right-radius:10px ;
+  border-top-left-radius:10px ;
+}
+nav ul li:hover{
+  background: #353b48;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+#check{
+display: none;
+}
+.checkbtn{
+  color:white;
+  font-size: 30px;
+  float:right;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+  margin-right: 10px;
+}
+
+li.active a{
+  color:rgba(123, 237, 159,1.0);
+}
